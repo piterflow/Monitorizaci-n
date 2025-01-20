@@ -1,6 +1,6 @@
 # Monitorización
 ## Introducción
 
- [## Monitorización de procesos](Monitorizacióndeprocesos.md)
-## Monitorización de almacenamiento
-## Monitorización de red
+1. [Monitorización de procesos](Monitorizacióndeprocesos.md)
+2. [Monitorización de almacenamiento](Monitorizaciondeprocesos.md)
+4. [Monitorización de red](Monitorizaciondered.md)
