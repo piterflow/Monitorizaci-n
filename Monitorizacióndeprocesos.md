@@ -25,7 +25,7 @@ De los siguientes comandos veremos una pequeña descripción de sus opciones e i
 
 Alterna la columna COMMAND entre mostrar el comando o el nombre del programa.
 
-  [top -c: ](Imagenes/top-c.png)
+  [top -c ](Imagenes/top-c.png)
 
 Como vemos en la imagen, va alternando mostrando el comando que se está utilizando y el nombre del programa en ejecución.
 
@@ -33,7 +33,7 @@ Como vemos en la imagen, va alternando mostrando el comando que se está utiliza
 
  Muestra sólo los procesos del usuario especificado. Esto es útil para filtrar la salida 	y ver sólo los procesos de un usuario en particular.
 
- IMAGEN...
+[top -u ](Imagenes/top-u.png)
 
  Como se ve en la imagen solo muestra el nombre del usuario introducido.
 
@@ -43,15 +43,15 @@ Permite monitorear un proceso específico utilizando su ID de proceso (PID). Est
 
 Ejemplo -> top -p 1742
 
-IMAGEN...
+[top -p ](Imagenes/top-p.png)
 
 Nos muestra solamente el proceso que hemos introducido como parámetro.
 
-> Top -b “> nombre_archivo”
+> Top -b “ > nombre_archivo”
 
 Inicia top en modo "batch", lo que significa que la salida se puede redirigir a un archivo o a otro comando. Este modo es útil para crear informes.
 
-IMAGEN...
+[top - ](Imagenes/Capturadepantalla2025-01-16-123301.png)
 
 Redireccionamos la salida del comando a un archivo informe.txt.
 
