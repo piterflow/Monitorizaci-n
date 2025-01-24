@@ -51,7 +51,7 @@ Nos muestra solamente el proceso que hemos introducido como parámetro.
 
 Inicia top en modo "batch", lo que significa que la salida se puede redirigir a un archivo o a otro comando. Este modo es útil para crear informes.
 
-[top -b ]([Imagenes/top-b.png)
+[top -b ](Imagenes/top-b.png)
 
 Redireccionamos la salida del comando a un archivo informe.txt.
 
