@@ -25,7 +25,7 @@ De los siguientes comandos veremos una pequeña descripción de sus opciones e i
 
 Alterna la columna COMMAND entre mostrar el comando o el nombre del programa.
 
-IMAGEN...
+  [top -c: ](Imagenes/top-c.png)
 
 Como vemos en la imagen, va alternando mostrando el comando que se está utilizando y el nombre del programa en ejecución.
 
