@@ -63,7 +63,7 @@ Ejemplo -> top -d 240 (actualizará en “4 minutos”)
 
 Cambia el intervalo de actualización de la pantalla en segundos. Por defecto, top actualiza cada 3 segundos, pero puedes ajustar este valor para ver la información con más o menos frecuencia.
 
-iMAGEN...
+[top -d ](Imagenes/top-d.png)
 
 En la imagen no se aprecia, para ello tienes que probarlo en tu terminal, y ver que los profesos no cambian hasta pasado el máximo de segundos metido por parámetro.
 
@@ -71,7 +71,7 @@ En la imagen no se aprecia, para ello tienes que probarlo en tu terminal, y ver 
 
 Invierte el último estado 'i' recordado.
 
-IMAGEN...
+[tio -i ](Imagenes/top-i.png)
 
 Como vemos solo muestra los últimos estados ejecutados.
 
