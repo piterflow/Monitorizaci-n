@@ -51,7 +51,7 @@ Nos muestra solamente el proceso que hemos introducido como parámetro.
 
 Inicia top en modo "batch", lo que significa que la salida se puede redirigir a un archivo o a otro comando. Este modo es útil para crear informes.
 
-[top - ](Imagenes/Capturadepantalla2025-01-16-123301.png)
+[top -b ]([Imagenes/Capturadepantalla2025-01-16-123301.png](https://github.com/piterflow/Monitorizaci-n/blob/main/Imagenes/Captura%20de%20pantalla%202025-01-16%20123301.png))
 
 Redireccionamos la salida del comando a un archivo informe.txt.
 
