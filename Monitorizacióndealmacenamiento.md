@@ -91,8 +91,3 @@ IMAGEN...
 
 Muestra un informe de utilización de la CPU.
 
-> iostat -c
-
-Nos da un informe breve de la cpu, usuario, sistema, etc.
-
-IMAGEN...
