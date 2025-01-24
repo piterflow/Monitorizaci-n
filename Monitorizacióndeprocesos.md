@@ -51,7 +51,7 @@ Nos muestra solamente el proceso que hemos introducido como parámetro.
 
 Inicia top en modo "batch", lo que significa que la salida se puede redirigir a un archivo o a otro comando. Este modo es útil para crear informes.
 
-[top -b ]([Imagenes/Capturadepantalla2025-01-16-123301.png](https://github.com/piterflow/Monitorizaci-n/blob/main/Imagenes/Captura%20de%20pantalla%202025-01-16%20123301.png))
+[top -b ]([Imagenes/top-b.png)
 
 Redireccionamos la salida del comando a un archivo informe.txt.
 
@@ -94,13 +94,15 @@ Una opción muy útil para principiantes que están aprendiendo a utilizar htop.
 
 Permite buscar procesos específicos por nombre. Esto facilita encontrar un proceso en una lista extensa.
 
+[Imagen F3]([Imagenes/htop-F3.png)
+
 Indicamos el proceso que queremos buscar y vemos que nos ha mostrado todos los procesos que están ejecutándose con /usr.
 
 > F4
 
 Filtra los procesos en la lista según un criterio específico. Esto es útil para 	concentrarse en un conjunto particular de procesos.
 
-IMAGEN...
+[Imagen F3]([Imagenes/htop-f4.png)
 
 Muestra el proceso que está corriendo.
 
@@ -108,7 +110,7 @@ Muestra el proceso que está corriendo.
 
 Cambia la visualización a modo de árbol, mostrando la jerarquía de procesos y sus relaciones parentales.
 
-IMAGEN...
+[Imagen F]([Imagenes/htop-F5.png)
 
 Vemos como en el apartado COMMAND nos muestra en forma de árbol en forma de jerarquía.
 
@@ -116,7 +118,7 @@ Vemos como en el apartado COMMAND nos muestra en forma de árbol en forma de jer
 
 Permite cambiar el criterio de ordenamiento de la lista de procesos (por	 	CPU, memoria, tiempo, etc.).
 
-IMAGEN...
+[Imagen F]([Imagenes/htop-F6.png)
 
 Vemos como en la parte izquierda nos coloca para ordenar según qué proceso. Con la frecha se arriba y abajo podemos movernos o señalando con el ratón.
 
@@ -124,7 +126,7 @@ Vemos como en la parte izquierda nos coloca para ordenar según qué proceso. Co
 
 Ofrece la opción de enviar una señal a un proceso seleccionado, como terminarlo o enviarle una señal específica.
 
-IMAGEN...
+[Imagen F9]([Imagenes/htop-F9.png)
 
 En la parte izquierda podemos seleccionar a cuál proceso queremos mandarle una señal, como por ejemplo, matar proceso.
 
@@ -136,7 +138,7 @@ Nos proporciona una instantánea de los procesos en ejecución.
 
 Muestra todos los procesos.
 
-IMAGEN...
+[Imagen pe -e]([Imagenes/ps-e.png)
 
 Como vemos nos muestra todos los procesos pero no podemos filtrarlos como con htop o top.
 
@@ -160,7 +162,7 @@ Ahora nos muestra el PRI, NI, ADDR, SZ, WCHAN.
 
 Muestra todos los procesos en un formato detallado.
 
-IMAGEN...
+[Imagen ps aux]([Imagenes/ps-aux.png)
 
 Comparado con las otras opciones, nos muestra mucho más procesos.
 
@@ -170,7 +172,7 @@ Comparado con las otras opciones, nos muestra mucho más procesos.
 
 Muestra la línea de comandos por proceso.
 
-IMAGEN...
+[Imagen atop -c]([Imagenes/atop-c.png)
 
 Vemos que nos está mostrando la línea de comando por los procesos que se están ejecutando como /usr/…
 
@@ -178,7 +180,7 @@ Vemos que nos está mostrando la línea de comando por los procesos que se está
 
 Muestra la información relacionada con la memoria.
 
-IMAGEN...
+[Imagen atop -m]([Imagenes/atop-m.png)
 
 Toda la información que nos muestra tiene relación con la memoria.
 
@@ -186,7 +188,7 @@ Toda la información que nos muestra tiene relación con la memoria.
 
 Muestra la información de la red.
 
-IMAGEN..
+[Imagen atop -n]([Imagenes/atop-n.png)
 
 Nos muestra el nombre de nuestra red enp0s3, network, transport.
 
