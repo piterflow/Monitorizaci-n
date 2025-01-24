@@ -25,7 +25,7 @@ De los siguientes comandos veremos una pequeña descripción de sus opciones e i
 
 Alterna la columna COMMAND entre mostrar el comando o el nombre del programa.
 
-  [top -c ](Imagenes/top-c.png)
+  [top -c ](Imegen/Imagenes/top-c.png)
 
 Como vemos en la imagen, va alternando mostrando el comando que se está utilizando y el nombre del programa en ejecución.
 
@@ -33,7 +33,7 @@ Como vemos en la imagen, va alternando mostrando el comando que se está utiliza
 
  Muestra sólo los procesos del usuario especificado. Esto es útil para filtrar la salida 	y ver sólo los procesos de un usuario en particular.
 
-[top -u ](Imagenes/top-u.png)
+[top -u ](Imegen/Imagenes/top-u.png)
 
  Como se ve en la imagen solo muestra el nombre del usuario introducido.
 
@@ -43,7 +43,7 @@ Permite monitorear un proceso específico utilizando su ID de proceso (PID). Est
 
 Ejemplo -> top -p 1742
 
-[top -p ](Imagenes/top-p.png)
+[top -p ](Imegen/Imagenes/top-p.png)
 
 Nos muestra solamente el proceso que hemos introducido como parámetro.
 
@@ -51,7 +51,7 @@ Nos muestra solamente el proceso que hemos introducido como parámetro.
 
 Inicia top en modo "batch", lo que significa que la salida se puede redirigir a un archivo o a otro comando. Este modo es útil para crear informes.
 
-[top -b ](Imagenes/top-b.png)
+[top -b ](Imegen/Imagenes/top-b.png)
 
 Redireccionamos la salida del comando a un archivo informe.txt.
 
@@ -63,7 +63,7 @@ Ejemplo -> top -d 240 (actualizará en “4 minutos”)
 
 Cambia el intervalo de actualización de la pantalla en segundos. Por defecto, top actualiza cada 3 segundos, pero puedes ajustar este valor para ver la información con más o menos frecuencia.
 
-[top -d ](Imagenes/top-d.png)
+[top -d ](Imegen/Imagenes/top-d.png)
 
 En la imagen no se aprecia, para ello tienes que probarlo en tu terminal, y ver que los profesos no cambian hasta pasado el máximo de segundos metido por parámetro.
 
@@ -71,7 +71,7 @@ En la imagen no se aprecia, para ello tienes que probarlo en tu terminal, y ver 
 
 Invierte el último estado 'i' recordado.
 
-[tio -i ](Imagenes/top-i.png)
+[top -i ](Imegen/Imagenes/top-i.png)
 
 Como vemos solo muestra los últimos estados ejecutados.
 
@@ -86,7 +86,7 @@ Sin embargo, sí es verdad que htop nos da varias opciones para introducir por c
 
 Muestra la ayuda y las instrucciones sobre las funciones de htop.
 
-IMAGE....
+[ htop F1 ](Imegen/Imagenes/htopF1.png)
 
 Una opción muy útil para principiantes que están aprendiendo a utilizar htop.
 
@@ -94,7 +94,7 @@ Una opción muy útil para principiantes que están aprendiendo a utilizar htop.
 
 Permite buscar procesos específicos por nombre. Esto facilita encontrar un proceso en una lista extensa.
 
-[Imagen -F3 ](Imagenes/htop-F3.png)
+[Imagen -F3 ](Imagen/Imagenes/htop-F3.png)
 
 Indicamos el proceso que queremos buscar y vemos que nos ha mostrado todos los procesos que están ejecutándose con /usr.
 
