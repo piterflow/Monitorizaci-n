@@ -4,7 +4,7 @@
 
 Con tcpdump podemos capturar y analizar los paquetes de nuestra red.
 
-IMAGEN...
+[Imagen tcpdump ](Imagen/ImagenesRed/tcpdump.png)
 
 Nos ha capturado los paquetes que salen y entran en nuestra red local.
 
@@ -13,21 +13,15 @@ Nos ha capturado los paquetes que salen y entran en nuestra red local.
 
 Con esta opción se especifica la interfaz que se debe capturar.
 
-IMAGEN...
+[Imagen tcpdump -i ](Imagen/ImagenesRed/tcpdump-i.png)
 
 Nos capta los paquetes de la red especificada dándonos una información del tráfico que está pasando por la tarjeta de red.
-
-> tcpdump port [puerto]
-
-Con este comando se filtra por el puerto indicado entre 0 y 65535.
-
-IMAGEN...
 
 > tcpdump -D --list-interfaces
 
 Imprime la lista de interfaces de red disponibles en el sistema y en las que tcpdump puede capturar paquetes.  Para cada interfaz red, se imprimen un número y un nombre de interfaz, posiblemente seguidos de una descripción de texto de la interfaz. 
 
-IMAGEN...
+[Imagen tcpdump -D ](Imagen/ImagenesRed/tcpdump-D.png)
 
 Vemos que nos muestra las interfaces de red de nuestra máquina. Nos aparece enp0s3 que es nuestra red lan y virbr0 de una red de kvm.
 
@@ -40,7 +34,7 @@ transmitidos en un formato visual.
 
 Uso básico > tcptrack -i [nombre-interfaz]
 
-IMAGEN...
+[Imagen tcptrack ](Imagen/ImagenesRed/tcpdump-D.png)
 
 Nos muestra todo el tráfico de nuestra conexión tcp activa en tiempo real.
 
@@ -61,7 +55,7 @@ Si le damos a **IP traffic monitor** podemos seleccionar todas las interfaces o 
 
 **Configuration**
 
-IMAGEN...
+[Imagen iptraf-ng configuration ](Imagen/ImagenesRed/iptraf-ng-configuration.png)
 
 Podemos cambiar la configuración con las opciones que mejor nos vengan.
 
@@ -75,7 +69,7 @@ Es una herramienta clásica para inspeccionar conexiones de red, sockets y estad
 
 Muestra los conectores en espera y los que no lo están. Con la opción --interfaces muestra las interfaces inactivas.
 
-IMAGEN...
+[Imagen netstat -a ](Imagen/ImagenesRed/netstat-a.png)
 
 Nos meustra de izquierda a derecha, protocolo, Recv-Q(establecida  (established) la  cantidad  de  bytes no copiados), Send-Q (contabiliza los bytes), Local Adress(La  dirección local (nombre del ordenador local), Foreign Address (dirección y número de  puerto  del  conector  del  sistema  remoto.) y state (el  estado del conector).
 
@@ -83,7 +77,7 @@ Nos meustra de izquierda a derecha, protocolo, Recv-Q(establecida  (established)
 
 Muestra  direcciones  numéricas  en  vez  de  tratar  de  determinar un sistema, puerto o nombre de usuario.
 
-IMAGEN...
+[Imagen netstat -n ](Imagen/ImagenesRed/netstat-n.png)
 
 Vemos que nos muestra el protocolo, conecctividad, estado, el tipo y el path.
 
@@ -91,7 +85,7 @@ Vemos que nos muestra el protocolo, conecctividad, estado, el tipo y el path.
 
 Ver conexiones TCP activas con información de procesos.
 
-IMAGEN...
+[Imagen netstat -tp ](Imagen/ImagenesRed/netstat-tp.png)
 
 Vemos las conexiones activas y el puerto por el que se ejecuta. Como vemos tenemos en ejecución firefox.
 
@@ -99,6 +93,6 @@ Vemos las conexiones activas y el puerto por el que se ejecuta. Como vemos tenem
 
 Se utiliza para mostrar todos los puertos que están escuchando (en modo "listening") en el sistema.
 
-IMAGEN...
+[Imagen netstat -l ](Imagen/ImagenesRed/netstat-l.png)
 
 Vemos todos los puertos que están en escucha.
