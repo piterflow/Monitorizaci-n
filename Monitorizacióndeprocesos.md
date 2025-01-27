@@ -17,7 +17,6 @@ Para la monitorización de procesos tenemos el comando top. Nos da una informaci
 | TIME + | Tiempo total empleado en el proceso |
 | COMMAD | Comando que inició el proceso |
 
-De los siguientes comandos veremos una pequeña descripción de sus opciones e imagenes.
 
 ## Comando TOP.
 
@@ -25,7 +24,7 @@ De los siguientes comandos veremos una pequeña descripción de sus opciones e i
 
 Alterna la columna COMMAND entre mostrar el comando o el nombre del programa.
 
-  [top -c ](Imegen/Imagenes/top-c.png)
+  [Imagen top -c ](Imagen/MonitorizacionProcesos/atop-c.png)
 
 Como vemos en la imagen, va alternando mostrando el comando que se está utilizando y el nombre del programa en ejecución.
 
@@ -33,7 +32,7 @@ Como vemos en la imagen, va alternando mostrando el comando que se está utiliza
 
  Muestra sólo los procesos del usuario especificado. Esto es útil para filtrar la salida 	y ver sólo los procesos de un usuario en particular.
 
-[top -u ](Imegen/Imagenes/top-u.png)
+[Imagen top -u ](Imagen/MonitorizacionProcesos/top-u.png)
 
  Como se ve en la imagen solo muestra el nombre del usuario introducido.
 
@@ -43,7 +42,7 @@ Permite monitorear un proceso específico utilizando su ID de proceso (PID). Est
 
 Ejemplo -> top -p 1742
 
-[top -p ](Imegen/Imagenes/top-p.png)
+[Imagen top -p ](Imagen/MonitorizacionProcesos/top-p.png)
 
 Nos muestra solamente el proceso que hemos introducido como parámetro.
 
@@ -51,7 +50,7 @@ Nos muestra solamente el proceso que hemos introducido como parámetro.
 
 Inicia top en modo "batch", lo que significa que la salida se puede redirigir a un archivo o a otro comando. Este modo es útil para crear informes.
 
-[top -b ](Imegen/Imagenes/top-b.png)
+[Imagen top -b ](Imagen/MonitorizacionProcesos/top-b.png)
 
 Redireccionamos la salida del comando a un archivo informe.txt.
 
@@ -63,7 +62,7 @@ Ejemplo -> top -d 240 (actualizará en “4 minutos”)
 
 Cambia el intervalo de actualización de la pantalla en segundos. Por defecto, top actualiza cada 3 segundos, pero puedes ajustar este valor para ver la información con más o menos frecuencia.
 
-[top -d ](Imegen/Imagenes/top-d.png)
+[Imagen top -d ](Imagen/MonitorizacionProcesos/top-d.png)
 
 En la imagen no se aprecia, para ello tienes que probarlo en tu terminal, y ver que los profesos no cambian hasta pasado el máximo de segundos metido por parámetro.
 
@@ -71,7 +70,7 @@ En la imagen no se aprecia, para ello tienes que probarlo en tu terminal, y ver 
 
 Invierte el último estado 'i' recordado.
 
-[top -i ](Imegen/Imagenes/top-i.png)
+[Imagen top -i ](Imagen/MonitorizacionProcesos/top-i.png)
 
 Como vemos solo muestra los últimos estados ejecutados.
 
@@ -86,7 +85,7 @@ Sin embargo, sí es verdad que htop nos da varias opciones para introducir por c
 
 Muestra la ayuda y las instrucciones sobre las funciones de htop.
 
-[ htop F1 ](Imegen/Imagenes/htopF1.png)
+[Imagen htop F1 ](Imagen/MonitorizacionProcesos/htopF1.png)
 
 Una opción muy útil para principiantes que están aprendiendo a utilizar htop.
 
@@ -94,7 +93,7 @@ Una opción muy útil para principiantes que están aprendiendo a utilizar htop.
 
 Permite buscar procesos específicos por nombre. Esto facilita encontrar un proceso en una lista extensa.
 
-[Imagen -F3 ](Imagen/Imagenes/htop-F3.png)
+[Imagen htop F3 ](Imagen/MonitorizacionProcesos/htopF3.png)
 
 Indicamos el proceso que queremos buscar y vemos que nos ha mostrado todos los procesos que están ejecutándose con /usr.
 
@@ -102,7 +101,7 @@ Indicamos el proceso que queremos buscar y vemos que nos ha mostrado todos los p
 
 Filtra los procesos en la lista según un criterio específico. Esto es útil para 	concentrarse en un conjunto particular de procesos.
 
-[Imagen F4 ](Imagenes/htop-f4.png)
+[Imagen htop F4 ](Imagen/MonitorizacionProcesos/htopF4.png)
 
 Muestra el proceso que está corriendo.
 
@@ -110,7 +109,7 @@ Muestra el proceso que está corriendo.
 
 Cambia la visualización a modo de árbol, mostrando la jerarquía de procesos y sus relaciones parentales.
 
-[Imagen F5 ](Imagenes/htop-F5.png)
+[Imagen htop F5 ](Imagen/MonitorizacionProcesos/htopF5.png)
 
 Vemos como en el apartado COMMAND nos muestra en forma de árbol en forma de jerarquía.
 
@@ -118,7 +117,7 @@ Vemos como en el apartado COMMAND nos muestra en forma de árbol en forma de jer
 
 Permite cambiar el criterio de ordenamiento de la lista de procesos (por	 	CPU, memoria, tiempo, etc.).
 
-[Imagen F](Imagenes/htop-F6.png)
+[Imagen htop F6 ](Imagen/MonitorizacionProcesos/htopF6.png)
 
 Vemos como en la parte izquierda nos coloca para ordenar según qué proceso. Con la frecha se arriba y abajo podemos movernos o señalando con el ratón.
 
@@ -126,7 +125,7 @@ Vemos como en la parte izquierda nos coloca para ordenar según qué proceso. Co
 
 Ofrece la opción de enviar una señal a un proceso seleccionado, como terminarlo o enviarle una señal específica.
 
-[Imagen F9](Imagenes/htop-F9.png)
+[Imagen htop F9 ](Imagen/MonitorizacionProcesos/htopF9.png)
 
 En la parte izquierda podemos seleccionar a cuál proceso queremos mandarle una señal, como por ejemplo, matar proceso.
 
@@ -138,7 +137,7 @@ Nos proporciona una instantánea de los procesos en ejecución.
 
 Muestra todos los procesos.
 
-[Imagen pe -e](Imagenes/ps-e.png)
+[Imagen ps -e ](Imagen/MonitorizacionProcesos/ps-e.png)
 
 Como vemos nos muestra todos los procesos pero no podemos filtrarlos como con htop o top.
 
@@ -146,7 +145,7 @@ Como vemos nos muestra todos los procesos pero no podemos filtrarlos como con ht
 
 Nos mostrará una lista completa con más detalles.
 
-IMAGEN...
+[Imagen ps -f ](Imagen/MonitorizacionProcesos/ps-f.png)
 
 Vemos que ahora nos muestra PPID, C, STIO y el UID.
 
@@ -154,7 +153,7 @@ Vemos que ahora nos muestra PPID, C, STIO y el UID.
 
  Nos muestra una lista más larga y detallada.
 
-IMAGEN...
+[Imagen ps -l ](Imagen/MonitorizacionProcesos/ps-l.png)
 
 Ahora nos muestra el PRI, NI, ADDR, SZ, WCHAN.
 
@@ -162,7 +161,7 @@ Ahora nos muestra el PRI, NI, ADDR, SZ, WCHAN.
 
 Muestra todos los procesos en un formato detallado.
 
-[Imagen ps aux](Imagenes/ps-aux.png)
+[Imagen ps -aux ](Imagen/MonitorizacionProcesos/ps-aux.png)
 
 Comparado con las otras opciones, nos muestra mucho más procesos.
 
@@ -172,7 +171,7 @@ Comparado con las otras opciones, nos muestra mucho más procesos.
 
 Muestra la línea de comandos por proceso.
 
-[Imagen atop -c](Imagenes/atop-c.png)
+[Imagen atop -c ](Imagen/MonitorizacionProcesos/atop-c.png)
 
 Vemos que nos está mostrando la línea de comando por los procesos que se están ejecutando como /usr/…
 
@@ -180,7 +179,7 @@ Vemos que nos está mostrando la línea de comando por los procesos que se está
 
 Muestra la información relacionada con la memoria.
 
-[Imagen atop -m](Imagenes/atop-m.png)
+[Imagen atop -m ](Imagen/MonitorizacionProcesos/atop-m.png)
 
 Toda la información que nos muestra tiene relación con la memoria.
 
@@ -188,7 +187,7 @@ Toda la información que nos muestra tiene relación con la memoria.
 
 Muestra la información de la red.
 
-[Imagen atop -n](Imagenes/atop-n.png)
+[Imagen atop -n ](Imagen/MonitorizacionProcesos/atop-n.png)
 
 Nos muestra el nombre de nuestra red enp0s3, network, transport.
 
@@ -196,7 +195,7 @@ Nos muestra el nombre de nuestra red enp0s3, network, transport.
 
 Nos muestra los hilos individuales.
 
-IMAGEN...
+[Imagen atop -y ](Imagen/MonitorizacionProcesos/atop-y.png)
 
 En la imagen vemos que nos identifica los distintos hilos y nos lo señala con distinto color.
 
