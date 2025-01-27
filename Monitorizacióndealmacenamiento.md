@@ -15,6 +15,7 @@ Nos muestra una descripción detallada de la memoria, total, usado, libre, compa
 Nos muestra una salida legible para los usuarios. La información es más detallada, mostrando la memoria en gigabytes y megabytes.
 
 [Imagen free -h ](Imagen/ImagenesAlmacenamiento/free-h.png)
+
 En la memoria baja si tenemos datos, esto se debe a que abarca la capacidad de memoria hasta los 640 k. Sin embargo, la memoria alta no tenemos muestras ya que nos mostraría datos a partir de 640k en adelante.
 
 > free -t
